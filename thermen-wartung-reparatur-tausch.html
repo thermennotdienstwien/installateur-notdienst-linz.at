@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Thermenwartung Linz – 24h Notdienst, Reparatur & Thermentausch</title>
+    <meta name="description"
+        content="Thermenwartung in Linz vom Profi. Fachgerechte Thermenreparatur, Überprüfung und Thermentausch. 24h Notdienst bei Gasgeruch oder Störung. Jetzt anrufen!" />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/installateur-notdienst-team.png" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#c73418",
+                        "background-light": "#efeedf",
+                        "background-dark": "#1a2e1a",
+                        "glass-light": "rgba(255, 255, 255, 0.4)",
+                        "glass-dark": "rgba(30, 40, 30, 0.4)",
+                        black: "#000000",
+                    },
+                    fontFamily: {
+                        display: ["Google Sans", "sans-serif"],
+                        body: ["Google Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        'xl': "1.5rem",
+                        '2xl': "2rem",
+                    }
+                },
+            },
+        };
+    </script>
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-body min-h-screen relative overflow-x-hidden transition-colors duration-300">
+    <div class="fixed inset-0 pointer-events-none overflow-hidden">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+    </div>
+
+    <nav class="fixed w-full z-50 top-0 left-0 px-4 sm:px-6 py-4">
+        <div
+            class="max-w-7xl mx-auto glass-panel bg-glass-light/70 dark:bg-glass-dark/70 rounded-2xl flex flex-col sm:flex-row justify-between items-center px-4 sm:px-6 py-3 gap-3 sm:gap-0">
+            <div class="flex justify-between items-center w-full sm:w-auto">
+                <a href="/" class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-3xl">plumbing</span>
+                    <span class="text-lg sm:text-xl font-bold text-black dark:text-white tracking-tight">Installateur
+                        Notdienst Linz</span>
+                </a>
+                <button
+                    class="sm:hidden p-2 rounded-full hover:bg-white/20 dark:hover:bg-black/20 text-black dark:text-white transition"
+                    onclick="document.getElementById('theme-toggle').click()">
+                    <span class="material-symbols-outlined text-xl">brightness_4</span>
+                </button>
+            </div>
+            <div class="flex items-center gap-4 w-full sm:w-auto">
+                <button
+                    class="hidden sm:block p-2 rounded-full hover:bg-white/20 dark:hover:bg-black/20 text-black dark:text-white transition"
+                    id="theme-toggle">
+                    <span class="material-symbols-outlined text-xl">brightness_4</span>
+                </button>
+                <a class="flex justify-center w-full sm:w-auto items-center gap-2 px-5 py-2 bg-primary text-white rounded-xl font-bold shadow-md transition-all hover:bg-red-900"
+                    href="tel:066493342464">
+                    <span class="material-symbols-outlined text-sm">call</span>
+                    24/7 Notruf
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10 pt-36 sm:pt-24 pb-12 px-4 sm:px-6 lg:px-8 space-y-24">
+        <!-- Hero Section -->
+        <section class="flex items-center justify-center min-h-[calc(100vh-10rem)]">
+            <div
+                class="w-full max-w-7xl glass-panel bg-glass-light/50 dark:bg-glass-dark/50 rounded-3xl p-6 sm:p-10 lg:p-20 flex flex-col items-center text-center gap-8 lg:gap-12 shadow-2xl relative overflow-hidden lg:flex-row lg:text-left items-stretch lg:min-h-[700px]">
+                <!-- Badge -->
+                <div
+                    class="lg:absolute lg:top-10 lg:right-10 z-30 order-first lg:order-none self-center lg:self-auto w-full lg:w-auto flex justify-center lg:block">
+                    <div
+                        class="glass-card px-4 py-2 rounded-xl border border-white/40 flex items-center gap-2 bg-white/40 dark:bg-black/40 backdrop-blur-md shadow-sm">
+                        <span class="material-symbols-outlined text-yellow-500">star</span>
+                        <span class="text-sm font-bold text-black dark:text-white">Zertifizierte Fachkräfte</span>
+                    </div>
+                </div>
+
+                <div
+                    class="w-full max-w-2xl space-y-6 lg:space-y-8 flex flex-col justify-center items-center lg:items-start lg:text-left relative z-10 flex-1">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/40 dark:bg-white/10 backdrop-blur-sm border border-white/20">
+                        <span class="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
+                        <span
+                            class="text-xs sm:text-sm font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider">24h
+                            Thermenservice</span>
+                    </div>
+
+                    <h1
+                        class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black dark:text-white leading-tight">
+                        Thermenwartung in Linz<br />
+                        <span class="text-primary dark:text-red-400">24/7 Hilfe</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-black dark:text-gray-300 leading-relaxed max-w-xl">
+                        Egal ob unangenehmer Gasgeruch, ein plötzliches Gasgebrechen oder eine streikende Heizanlage:
+                        Wir garantieren eine zügige
+                        <strong>Thermenreparatur</strong>,
+                        einen reibungslosen <strong>Thermentausch</strong> und die routinemäßige
+                        <strong>Gasthermenwartung</strong> zu absolut fairen Konditionen.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 pt-2 lg:pt-4 w-full justify-center lg:justify-start">
+                        <a class="px-6 sm:px-8 py-4 bg-primary text-white rounded-xl font-bold shadow-lg shadow-red-900/20 hover:shadow-red-900/40 transform hover:-translate-y-1 transition-all flex justify-center items-center gap-2 text-base sm:text-lg w-full sm:w-auto hover:bg-red-900"
+                            href="tel:066493342464">
+                            <span class="material-symbols-outlined">phone_in_talk</span>
+                            JETZT ANRUFEN
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div
+                    class="w-full lg:w-auto relative lg:absolute lg:bottom-0 lg:right-0 lg:-mr-8 z-20 pointer-events-none flex justify-center lg:inline-block mt-4 lg:mt-0 order-last">
+                    <img alt="Thermenservice Profis"
+                        class="w-72 h-72 sm:w-96 sm:h-96 lg:w-[550px] lg:h-[550px] object-cover rounded-full shadow-[0_0_30px_rgba(199,52,24,0.3)] border-4 border-white/20"
+                        src="assets/thermenwartung_hero_male.png" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Leistungen -->
+        <section class="max-w-7xl mx-auto w-full relative">
+            <div class="text-center mb-16 relative z-10">
+                <div
+                    class="inline-flex items-center justify-center px-4 py-1.5 mb-6 rounded-full glass-card text-xs font-bold tracking-widest uppercase text-primary dark:text-red-400 border-white/50">
+                    Unsere Leistungen
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-black dark:text-white">Umfassende</span> <span class="text-primary">Thermenservice
+                        in Linz und Umgebung.</span>
+                </h2>
+                <p class="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                    Ganz gleich, ob Sie ein routinemäßiges Thermenservice, eine akute Thermenreparatur oder einen
+                    vollständigen <a href="/thermen-wartung-reparatur-tausch.html">Thermentausch</a> benötigen – wir
+                    stehen als verlässlicher
+                    Ansprechpartner für eine
+                    hochwertige und <strong>günstige Thermenwartung</strong> an Ihrer Seite. Auch im Falle einer
+                    unerwarteten Thermenstörung, bei einem
+                    dringenden Thermen Notdienst, einer plötzlich auftretenden Heizungsstörung oder dem totalen
+                    Thermenausfall leisten wir
+                    im Handumdrehen Erste Hilfe. Von der einfachen Überprüfung der Gastherme bis zur Neumontage –
+                    vertrauen Sie auf unsere langjährige Expertise.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+                <!-- Leistung 1 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">hvac</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">THERMENWARTUNG LINZ</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Eine
+                        <strong>regelmäßige Wartung der Gastherme</strong>
+                        ist unverzichtbar, um die Sicherheit und Funktionalität Ihrer Anlage langfristig zu
+                        gewährleisten und die
+                        Nutzungsdauer zu maximieren. Im Zuge einer fachgerechten Inspektion werden sämtliche
+                        Verschleißteile geprüft,
+                        sicherheitsrelevante Module kontrolliert und das Gerät so justiert, dass ein sparsamer
+                        Energieverbrauch
+                        sichergestellt ist. Eine professionelle Inspektion hilft nicht nur dabei, Heizanlagenkosten zu
+                        minimieren, sondern
+                        schützt auch vor plötzlichen Defekten und erfüllt wichtige gesetzliche Richtlinien.
+                    </p>
+                </div>
+                <!-- Leistung 2 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">engineering</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">THERMENSERVICE LINZ</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Ein gewissenhaft durchgeführtes Thermenservice
+                        beinhaltet
+                        die detaillierte Prüfung Ihres Heizsystems, die Säuberung des Wärmetauschers, einen Check der
+                        Brennkammer
+                        sowie die präzise Nachjustierung der Gaszufuhr. Durch diesen wiederkehrenden Thermenservice wird
+                        die
+                        Effektivität des Brenners verbessert und die Betriebssicherheit dauerhaft gestärkt. Überdies
+                        werden
+                        sämtliche Betriebsfunktionen ausgiebig getestet, um etwaige Fehlerquellen vorab zu
+                        identifizieren
+                        und kostenintensive Folgeschäden zu unterbinden.</p>
+                </div>
+                <!-- Leistung 3 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">autorenew</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">THERMENTAUSCH LINZ</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Ein sachkundiger Thermentausch bietet sich an,
+                        wenn Ihr
+                        altes Gasgerät nicht mehr effizient läuft, veraltet oder ständig defekt ist. Bei einem
+                        Thermentausch
+                        wird das bestehende System professionell demontiert und durch eine zeitgemäße, energieschonende
+                        Anlage ersetzt,
+                        die modernsten Standards entspricht. Ein rechtzeitig durchgeführter Gerätetausch minimiert den
+                        Gasverbrauch,
+                        verbessert das Raumklima und sorgt auf lange Sicht für niedrigere Heizkosten sowie eine
+                        garantierte
+                        Wärmeversorgung.</p>
+                </div>
+                <!-- Leistung 4 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">build</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">THERMENREPARATUR LINZ</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Eine prompte und fachmännische Thermenreparatur
+                        ist unerlässlich, sobald Ihre Heizanlage Mängel aufweist oder gar den Dienst quittiert.
+                        Während der Thermenreparatur erörtern unsere Techniker präzise die Fehlerursache und setzen
+                        defekte Bauteile umgehend wieder in Stand oder tauschen diese aus. Das oberste Ziel einer jeden
+                        Thermenreparatur ist es, die hundertprozentige Funktionalität Ihrer Anlage schnellstens
+                        zurückzugewinnen
+                        und teure Folgeschäden durch anhaltenden Stillstand abzuwenden.</p>
+                </div>
+                <!-- Leistung 5 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">propane</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">GASINSTALLATIONEN LINZ</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Unser Service in der Kategorie Gasinstallationen
+                        beinhaltet die sachkundige Konzeption, Montage und regelmäßige Überprüfung aller Gasleitungen
+                        sowie
+                        Gasgeräte. Höchstmögliche Sicherheit bei Gasinstallationen ist die Grundvoraussetzung für einen
+                        risikofreien und funktionierenden Einsatz Ihrer Koch- und Heizanlagen. Sollte zudem ein
+                        Gasgebrechen oder
+                        bedenklicher Gasgeruch auftreten, leisten wir im Zuge unserer Gasinstallationen sofortige Hilfe,
+                        um jede
+                        Art von Risiko zu neutralisieren.</p>
+                </div>
+                <!-- Leistung 6 -->
+                <div
+                    class="glass-card p-8 rounded-2xl flex flex-col items-start gap-4 hover:-translate-y-2 transition-transform duration-300 group">
+                    <div
+                        class="p-3 bg-white/30 dark:bg-white/10 rounded-xl group-hover:bg-primary/20 transition-colors">
+                        <span class="material-symbols-outlined text-4xl text-primary">support_agent</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-black dark:text-white">Installateur Notdienst</h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm">Der kompetente Installateur Notdienst ist zu
+                        jeder Tages- und
+                        Nachtzeit Ihr vertrauenswürdiger Ansprechpartner, wenn Sanitär- oder Heizungsgebrechen
+                        auftreten. Sei es
+                        ein spontaner Heizungsausfall, ein massiver Rohrbruch oder eine kritische Störung – als
+                        Installateur Notdienst
+                        übernehmen wir unmittelbar die Fehlersuche und leiten rettende Schritte ein. Als
+                        vollumfänglicher
+                        24 Stunden Thermenwartung und Notfall-Partner sichert der Installateur Notdienst zügige
+                        Interventionen
+                        sowie maximale Sicherheit zu – selbstverständlich auch an Sonn- und Feiertagen.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Removed SEO text from here to move it down -->
+
+        <!-- Was gehört zu... has been moved down -->
+
+        <!-- Was gehört zu... has been moved to after NOTFALL -->
+
+        <section id="anfrage" class="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative z-10 mt-12 mb-24">
+            <div
+                class="glass-card bg-primary/20 backdrop-blur-2xl border border-primary/30 p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative overflow-hidden">
+                <div
+                    class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
+                </div>
+                <h2 class="text-3xl font-bold text-black dark:text-white mb-8 text-center">Schnelle Anfrage</h2>
+                <form action="https://contact.visiopartners.at/?endpoint=installateur-notdienst-linz.at"
+                    data-recaptcha="6LeG_3gsAAAAAKaPQFv4hSH0WyRAnDIFDEIXnVNM" method="POST"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <input type="hidden" name="_cc" value="office@installateur-not24.at">
+                    <input type="hidden" name="_subject" value="Neue Anfrage über Website (Thermenwartung)">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next"
+                        value="https://installateur-notdienst-linz.at/thermen-wartung-reparatur-tausch.html">
+                    <div class="md:col-span-2">
+                        <input name="Ansprechpartner"
+                            class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                            placeholder="Ansprechpartner" type="text" />
+                    </div>
+                    <div>
+                        <input name="email"
+                            class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                            placeholder="E-Mail Adresse" type="email" />
+                    </div>
+                    <div>
+                        <input name="Telefonnummer" required
+                            oninvalid="this.setCustomValidity('Bitte geben Sie Ihre Telefonnummer an.')"
+                            oninput="this.setCustomValidity('')"
+                            class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                            placeholder="Telefonnummer *" type="tel" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <input name="Adresse"
+                            class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                            placeholder="Adresse" type="text" />
+                    </div>
+                    <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div>
+                            <input name="PLZ"
+                                class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                                placeholder="PLZ" type="text" />
+                        </div>
+                        <div>
+                            <input name="Ort"
+                                class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                                placeholder="Ort" type="text" />
+                        </div>
+                        <div>
+                            <select name="service"
+                                class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all text-gray-500">
+                                <option value="" disabled selected>Service wählen</option>
+                                <option value="Installateur Notdienst" class="text-black dark:text-white">Installateur
+                                    Notdienst</option>
+                                <option value="Abflussverstopfung" class="text-black dark:text-white">Abflussverstopfung
+                                </option>
+                                <option value="Wasserschaden" class="text-black dark:text-white">Wasserschaden</option>
+                                <option value="Kanalverstopfung" class="text-black dark:text-white">Kanalverstopfung
+                                </option>
+                                <option value="Thermenstörung" class="text-black dark:text-white">Thermenstörung
+                                </option>
+                                <option value="Thermenwartung" class="text-black dark:text-white">Thermenwartung
+                                </option>
+                                <option value="Thermentausch" class="text-black dark:text-white">Thermentausch</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="md:col-span-2">
+                        <textarea name="Nachricht"
+                            class="w-full bg-white/70 dark:bg-black/40 border-white/30 dark:border-white/10 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary transition-all"
+                            placeholder="Nachricht" rows="4"></textarea>
+                    </div>
+                    <div class="md:col-span-2 flex items-start gap-3 py-2">
+                        <input name="Datenschutz" required
+                            oninvalid="this.setCustomValidity('Bitte stimmen Sie der Datenschutzerklärung zu.')"
+                            oninput="this.setCustomValidity('')" class="mt-1 rounded text-primary focus:ring-primary"
+                            id="privacy" type="checkbox" />
+                        <label class="text-sm text-gray-600 dark:text-gray-400 leading-tight" for="privacy">Ich bin mit
+                            der <a href="datenschutzerklaerung.html"
+                                class="text-primary hover:underline">Datenschutzerklärung</a> einverstanden.</label>
+                    </div>
+                    <div class="md:col-span-2 pt-4">
+                        <button
+                            class="w-full py-5 bg-primary text-white rounded-2xl font-bold text-xl shadow-xl transform hover:-translate-y-1 transition-all hover:bg-red-900"
+                            type="button">
+                            Anfrage abschicken
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Brands Section -->
+        <section class="max-w-7xl mx-auto w-full mt-24 mb-12 px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="space-y-8 text-center max-w-5xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+                    <span class="text-black dark:text-white">Wir warten Gasthermen</span>
+                    <span class="text-primary">aller Marken</span>
+                </h2>
+                <h3 class="text-2xl font-bold mt-8 mb-4 text-black dark:text-white text-center">WARTUNG, SERVICE,
+                    TAUSCH, REPARATUR & NOTDIENST</h3>
+                <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                    Egal von welchem Hersteller Ihre Therme stammt, wir bieten professionelles <b>Thermenservice,
+                        Thermewartung, Thermentausch und Thermenreparatur</b>. Zu unserem Fachgebiet zählen Geräte unter
+                    anderem von:
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 pt-6">
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Austria
+                        Email</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Bosch</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Baxi</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Junkers</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Vaillant</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Buderus</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Ferroli</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Hoval</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Ocean</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Ideal
+                        Standard</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Comfort</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Nordgas</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Thermoquell</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Wolf</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Baretta</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Gebe</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Justus</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Löblich</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Gorenje</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">De
+                        Dietrich</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Rapido</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Stelrad</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Sieger</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Strebel</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Viessmann</span>
+                    <span
+                        class="px-4 py-2 bg-white/50 dark:bg-white/10 rounded-lg text-sm font-semibold shadow border border-white/20">Saunier
+                        Duval</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form & Notruf -->
+        <section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative z-10 mt-12 mb-12">
+            <div
+                class="bg-white/40 backdrop-blur-xl border border-white/20 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-center">
+                <a class="flex items-center gap-3 px-8 py-4 bg-primary text-white rounded-full font-bold shadow-xl transition-all text-xl hover:bg-red-900"
+                    href="tel:066493342464">
+                    <span class="material-symbols-outlined">call</span>0664 9334 2464
+                </a>
+                <div class="flex-1">
+                    <h3 class="text-2xl md:text-3xl font-bold">
+                        <span class="text-primary">NOTFALL?</span> <span class="text-black dark:text-white">Rufen Sie
+                            uns jetzt.</span>
+                    </h3>
+                </div>
+                <a class="flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-full font-bold shadow-xl transition-all hover:bg-red-900"
+                    href="#anfrage">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                    Anfrage abschicken
+                </a>
+            </div>
+        </section>
+
+        <!-- Marken Detail Section -->
+        <section class="max-w-7xl mx-auto w-full mt-24 mb-12 px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="space-y-16 max-w-5xl mx-auto">
+
+                <!-- Intro -->
+                <div class="text-center space-y-4">
+                    <h2 class="text-3xl md:text-5xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Thermenwartung, Reparatur & Heizungsservice in Linz
+                            –</span>
+                        <span class="text-primary">Service für viele Marken</span>
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Unsere Fachexperten warten Heizungssysteme direkt in Linz, dem Bezirk Linz-Land sowie
+                        angrenzenden Regionen in Oberösterreich.
+                        Wir sind Ihre erste Wahl, wenn es um Thermenwartung, detaillierte Thermenreparatur oder einen
+                        kompletten Thermentausch für die
+                        bekanntesten Qualitätsmarken geht. Konkret betreuen wir unter anderem Anlagen von Austria Email,
+                        Bosch, Baxi, Junkers, Vaillant,
+                        Buderus, Wolf, Gebe, Löblich, Viessmann und Saunier Duval. Auch wenn Sie Schwierigkeiten mit
+                        klassischen Gasthermen,
+                        fortschrittlichen Brennwertthermen, Heizkesseln, Kombithermen oder alternativen Heizlösungen
+                        haben, springen wir verlässlich
+                        ein. Mit unserem erstklassigen Service kümmern wir uns um alle Aspekte rund um Wartung,
+                        Reparatur sowie Notfall-Behebungen
+                        bei Ihrer Heizungsanlage, sodass es in Ihren vier Wänden stets warm und behaglich bleibt.
+                    </p>
+                </div>
+
+                <!-- AUSTRIA EMAIL -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Schnelle Hilfe bei Heizungsstörung in Linz –</span>
+                        <span class="text-primary">AUSTRIA EMAIL THERMEN SERVICE</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Ihre Heizanlage streikt oder Sie frieren, weil die Heizung ausgefallen ist? Wir sind in Linz, in
+                        Linz-Land und
+                        in ganz Oberösterreich rasch vor Ort und kümmern uns um alle Arten von Heizungsproblemen.
+                        Speziell für
+                        Austria Email Heizsysteme gewährleisten wir einen lückenlosen Service, sei es bei der regulären
+                        Thermenwartung
+                        oder der akribischen Überprüfung Ihrer Anlagen. Dabei übernehmen wir jegliche Thermenreparatur,
+                        führen bei Bedarf einen kompletten Thermentausch durch und halten Gasthermen, Brennwertthermen,
+                        Heizkessel sowie
+                        Kombithermen in Schuss. Auch Warmwasserboiler und Boilerheizungen werden von uns begutachtet,
+                        damit
+                        Ihre Gasheizung stets mit optimaler Effizienz heizt.
+                    </p>
+                </div>
+
+                <!-- BOSCH -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Wartung, Reparatur & Heizungsservice vom Profi –</span>
+                        <span class="text-primary">BOSCH THERMEN IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Sie suchen nach sofortiger Hilfe bei einer drohenden Heizungsstörung in Linz und dem Umland? Auf
+                        unseren Service
+                        ist absolut Verlass – wir rücken umgehend aus, wenn Ihre Heizanlage Probleme bereitet.
+                        Spezialisiert auf
+                        Bosch Heizsysteme, deckt unser Leistungskatalog die kompetente Wartung, fachkundige Reparatur
+                        sowie den professionellen Austausch moderner Heizanlagen in Linz und der gesamten Region
+                        Oberösterreich ab.
+                        Unser Know-How spannt sich von Gasthermen und Brennwertthermen bis hin zu Heizkesseln und den
+                        umfangreichen Heizungsanlagen. Auch Wärmepumpen, Hybridheizungen und praktische Kombithermen
+                        warten
+                        wir routiniert.
+                    </p>
+                </div>
+
+                <!-- BAXI -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">24 Stunden Notdienst bei Heizungsausfall –</span>
+                        <span class="text-primary">BAXI THERME IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Läuft die Heizung unregelmäßig oder bleibt das Warmwasser kalt, ist rasches Handeln gefragt.
+                        Unser Fachteam agiert
+                        in Linz sowie in Linz-Land reaktionsschnell und steht Ihnen bei jedweden Heizungsproblemen
+                        zur Seite. Bei Baxi Heizsystemen stemmen wir das komplette Thermenservice und sind ebenso
+                        beim Thermentausch oder der Thermenreparatur für Sie im Einsatz. Unser Angebot umfasst zudem die
+                        gezielte
+                        Wartung von Gasthermen, Brennwertgeräten und komplexen Heizkesseln. Auch Warmwasserboiler,
+                        Kombithermen
+                        und neuartige Heizsysteme werden von unseren versierten Profis turnusmäßig untersucht.
+                    </p>
+                </div>
+
+                <!-- JUNKERS -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Thermenwartung, Reparatur oder Austausch –</span>
+                        <span class="text-primary">JUNKERS HEIZUNGSSERVICE LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Heizungsstörungen lassen meist nicht auf sich warten – vor allem, wenn es draußen frostig ist.
+                        Unser Team
+                        beseitigt Ihre Sorgen rund um die Heizanlage in Linz und der breitflächigen Region
+                        Oberösterreich unverzüglich. Für zuverlässige Junkers Heizsysteme sichern wir ein ganzheitliches
+                        Service-Paket
+                        zu. Ganz gleich, ob Thermenwartung, notwendige Thermenreparatur oder ein effizienter
+                        Thermentausch
+                        bei etablierten Gasthermen, Brennwertthermen und den klassischen Heizkesseln. Genauso konsequent
+                        werden
+                        Warmwasserboiler, Kombithermen und alle weiteren Bestandteile Ihrer Heizungsanlagen durch uns
+                        laufend gewartet.
+                    </p>
+                </div>
+
+                <!-- VAILLANT -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Soforthilfe bei Heizungsproblemen –</span>
+                        <span class="text-primary">VAILLANT THERME SERVICE IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Gibt es eine Störmeldung bei der Heizung oder lässt die Heizkraft deutlich nach? Kontaktieren
+                        Sie unsere Fachleute
+                        in Linz, Linz-Land sowie im gesamten oberösterreichischen Großraum für prompte Lösung bei allen
+                        Heizungsproblemen. Als Betreuer von Vaillant Heizsystemen führen wir jegliche Maßnahmen zur
+                        Thermenwartung, zielgerichteten Thermenreparatur und bei Bedarf den fachgerechten Thermentausch
+                        durch.
+                        Das betrifft klassische Gasthermen, Brennwertgeräte als auch großformatige Heizkessel. Unsere
+                        Wartung erstreckt
+                        sich auch auf Hybridheizungen, Wärmepumpen und Kombithermen, sodass Ihr System stets perfekt
+                        läuft.
+                    </p>
+                </div>
+
+                <!-- BUDERUS -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Professionelle Wartung und Reparatur Ihrer Heizung
+                            –</span>
+                        <span class="text-primary">BUDERUS THERMEN IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Totaler Heizungsausfall oder nervenaufreibende Schwierigkeiten mit der Anlage? Wir als
+                        Installateure in Linz
+                        und dem Umland leisten bei ersten Anzeichen von Störungen oder für die regelmäßige
+                        Instandhaltung
+                        Erste Hilfe. Wenn es um renommierte Buderus Heizungen geht, veranlassen wir die präzise Wartung,
+                        die zügige
+                        Reparatur und bei Bedarf den sorgfältigen Austausch von Heizanlagen. Gasheizungen,
+                        Brennwertheizungen, komplexe
+                        Heizsysteme und Heizkessel befinden sich bei uns logistisch und handwerklich in den besten
+                        Händen. Gleiches
+                        gilt für gängige Warmwasserboiler und kompakte Kombithermen.
+                    </p>
+                </div>
+
+                <!-- WOLF -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Soforthilfe im Heizungsnotfall in Linz –</span>
+                        <span class="text-primary">WOLF THERMENSERVICE</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Macht Ihre Heizungsanlage unerwartete Geräusche, fällt aus oder meldet einen Fehlercode, sind
+                        wir in Linz
+                        und im übrigen Oberösterreich rasend schnell bei Ihnen. Unser Fachpersonal hat sich unter
+                        anderem
+                        auf Wolf Heizsysteme spezialisiert und übernimmt die fachgemäße Thermenwartung, jede Art von
+                        Thermenreparatur und bei Dringlichkeit den Thermentausch von klassischen Gasthermen,
+                        Brennwertthermen
+                        sowie Heizkesseln. Außerdem fallen auch ökologischere Systeme wie Wärmepumpen, Hybridheizungen
+                        und
+                        Kombithermen in unser routiniertes Serviceportfolio.
+                    </p>
+                </div>
+
+                <!-- GEBE -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Schneller Service bei Heizungsstörungen –</span>
+                        <span class="text-primary">GEBE HEIZUNGSSERVICE LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Unerwarteter Ärger mit der Heizung oder eisiges Duschwasser? Unser Not- und Kundendienst in Linz
+                        und Linz-Land ist durchgängig erreichbar, um bei leidigen Heizungsstörungen Abhilfe zu schaffen.
+                        Wenden Sie sich beruhigt an uns, wenn Sie Gebe Heizsysteme nutzen: Wir bieten erstklassige
+                        Betreuung
+                        und fokussieren uns auf die gewissenhafte Wartung, verlässliche Reparatur und den modernen
+                        Austausch
+                        von Gasthermen, kompakten Brennwertgeräten und Heizkesseln, um den Wert Ihrer Heizungsanlage
+                        langfristig
+                        zu erhalten.
+                    </p>
+                </div>
+
+                <!-- LÖBLICH -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Wartung und Reparatur moderner Heizungsanlagen –</span>
+                        <span class="text-primary">LÖBLICH THERMEN IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Bei der ersten Heizungsstörung oder gar einem bedenklichen Systemausfall zählt jede Minute.
+                        Unser
+                        geschultes Team ist in ganz Linz und quer durch Oberösterreich für Sie da, um Heizungsprobleme
+                        in den
+                        Griff zu kriegen. Wir übernehmen den vollumfänglichen Service für Löblich Heizsysteme und führen
+                        dabei die Thermenwartung, notwendige Thermenreparatur oder einen künftigen Thermentausch durch.
+                        Das schließt
+                        zahlreiche Anlagen wie Gasthermen, Brennwertthermen, moderne Kombithermen, klassische
+                        Heizkessel,
+                        Warmwasserboiler und weite Teile kompletter Heizsysteme mit ein.
+                    </p>
+                </div>
+
+                <!-- VIESSMANN -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">Zuverlässiger Kundendienst für Heizsysteme –</span>
+                        <span class="text-primary">VIESSMANN THERMEN SERVICE LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Erfüllt Ihre Heizanlage nicht mehr ihren Zweck oder ist das anstehende Serviceintervall
+                        überschritten?
+                        Unsere Spezialisten in Linz und seinem Ballungsraum helfen unbürokratisch und zeitnah. Im Umgang
+                        mit
+                        Viessmann Heizsystemen bieten wir einen bestens geschulten Dienst an den Geräten und kümmern uns
+                        intensiv um Gasthermen, sparsame Brennwertthermen und kräftige Heizkessel. Obendrein zählen die
+                        penible
+                        Wartung und Reparatur zukunftsweisender Heizungsanlagen, effizienter Wärmepumpen sowie
+                        platzsparender Kombithermen
+                        zu unseren Kernaufgaben.
+                    </p>
+                </div>
+
+                <!-- SAUNIER DUVAL -->
+                <div class="text-center space-y-4">
+                    <h3 class="text-2xl md:text-3xl font-bold leading-tight flex flex-col items-center gap-2">
+                        <span class="text-black dark:text-white">24/7-NOTDIENST FÜR THERMEN-STÖRUNGEN, REPARATUR ODER
+                            TAUSCH –</span>
+                        <span class="text-primary">SAUNIER DUVAL THERME IN LINZ</span>
+                    </h3>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto">
+                        Heizungskollapse ereignen sich zumeist ohne Vorwarnung und schreien nach handwerklicher
+                        Direkthilfe. Wir
+                        stellen in Linz, ganz Linz-Land sowie im übrigen Landesteil Oberösterreich die Erreichbarkeit
+                        sicher
+                        und beheben anspruchsvollste Heizungsprobleme im Nu. Der Service unserer Techniker deckt
+                        sämtliche
+                        Saunier Duval Heizsysteme ab und bündelt hierbei Leistungen wie Thermenwartung, akute
+                        Thermenreparatur und einen reibungslosen Thermentausch. Hierzu gehören Gasthermen,
+                        umweltschonende
+                        Brennwertgeräte, Kombithermen der neuesten Generation, Heizkessel und folglich auch Ihre
+                        ganzheitlichen Heizungsanlagen.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Form & Notruf -->
+        <section class="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative z-10 mt-12 mb-12">
+            <div
+                class="bg-white/40 backdrop-blur-xl border border-white/20 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-center">
+                <a class="flex items-center gap-3 px-8 py-4 bg-primary text-white rounded-full font-bold shadow-xl transition-all text-xl hover:bg-red-900"
+                    href="tel:066493342464">
+                    <span class="material-symbols-outlined">call</span>0664 9334 2464
+                </a>
+                <div class="flex-1">
+                    <h3 class="text-2xl md:text-3xl font-bold">
+                        <span class="text-primary">NOTFALL?</span> <span class="text-black dark:text-white">Rufen Sie
+                            uns jetzt.</span>
+                    </h3>
+                </div>
+                <a class="flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-full font-bold shadow-xl transition-all hover:bg-red-900"
+                    href="#anfrage">
+                    <span class="material-symbols-outlined text-sm">send</span>
+                    Anfrage abschicken
+                </a>
+            </div>
+        </section>
+
+        <!-- SEO Text Block (Moved after Contact Form & Notruf) -->
+        <section class="max-w-7xl mx-auto w-full mt-24 px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="space-y-8 text-center max-w-5xl mx-auto">
+                <div class="text-sm font-bold tracking-widest uppercase text-gray-500 mb-2">
+                    Junkers, Wolf, BAXI, Viessmann und Vaillant Thermenwartung in Linz
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+                    <span class="text-black dark:text-white"><strong>Thermenwartung Linz</strong> – Sicherheit und
+                        Effizienz</span><br />
+                    <span class="text-primary">für Ihre Heizungsanlage</span>
+                </h2>
+
+                <div class="space-y-6 mt-12 flex flex-col items-center">
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-4xl">
+                        Damit Betriebssicherheit, Energieersparnis und die Nutzdauer Ihrer Heizungsanlage garantiert
+                        bleiben, ist eine
+                        regelmäßige <strong>Thermenwartung in Linz</strong> essenziell. Üblicherweise sollte diese
+                        <strong>Gasthermen Wartung</strong> im Abstand von einem Jahr vorgenommen werden. Nur dieses
+                        Intervall sichert
+                        einen wirklich problemlosen, sicheren Einsatz. Darüber hinaus setzen sowohl Gerätehersteller als
+                        auch Haushaltsversicherer
+                        einen sachgemäßen Wartungsbeleg voraus.
+                    </p>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-4xl">
+                        Wir führen für Sie die professionelle <strong>Wartung von Thermen</strong> sämtlicher relevanter
+                        Herstellermarken und Bauarten durch – von bewährten <strong>Gasthermen</strong> über hochmoderne
+                        <strong>Brennwertthermen</strong> bis zu Heizkesseln oder Kompaktgeräten. Mit einer vorbeugenden
+                        <strong>Heizungswartung</strong> durch unsere Profis vermeiden Sie nicht nur schwerwiegende
+                        Reparaturen oder
+                        totale Anlagenausfälle, sondern dämmen auch einen unnötig hohen Gasverbrauch effektiv ein.
+                    </p>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-4xl">
+                        Unsere routinierten Installateure checken alle sicherheitskritischen Module, reinigen verrußte
+                        oder blockierte
+                        Komponenten penibel und stimmen die Geräteeinstellungen fehlerfrei ab. Der Zweck jeder
+                        fachkundigen
+                        <strong>Thermenwartung Linz</strong> ist es, die absolute Kraft Ihrer Heizung lange zu
+                        konservieren und
+                        das Höchstmaß an Sicherheit für Ihr Zuhause zu garantieren.
+                    </p>
+
+                    <h3 class="text-2xl font-bold mt-8 mb-4 text-black dark:text-white text-center">Was umfasst eine
+                        professionelle
+                        Thermenwartung?</h3>
+                    <ul
+                        class="list-disc text-gray-700 dark:text-gray-300 leading-relaxed text-left inline-block space-y-2">
+                        <li>Gründliche Funktions- und Sicherheitskontrolle der gesamten Anlage</li>
+                        <li>Reinigung von Brenner und Wärmetauscher zur Effizienzsteigerung</li>
+                        <li>Überprüfung des Ausdehnungsgefäßes und aller sicherheitsrelevanten Bauteile</li>
+                        <li>Kontrolle der Dichtheit sowie Optimierung der Geräteeinstellungen</li>
+                        <li>Austausch von Verschleißteilen bei Bedarf (Material separat verrechnet)</li>
+                        <li>Entlüftung und abschließende Dokumentation mit Prüfprotokoll</li>
+                    </ul>
+
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed text-center max-w-4xl mt-6">
+                        Durch eine fristgerecht absolvierte <strong>Thermenwartung</strong> wappnen Sie sich gegen
+                        plötzlichen
+                        <strong>Heizungsausfall</strong>, bewahren sich vor aussteigenden Heizkosten und dämmen
+                        sämtliche
+                        Verbrennungsrisiken rigoros ein. Setzen Sie auf unseren etablierten Service in Linz –
+                        verlässlich, absolut
+                        qualifiziert und pünktlich.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Services List (Was gehört zu...) -->
+        <section
+            class="max-w-7xl mx-auto w-full mb-24 px-4 sm:px-6 lg:px-8 relative z-10 bg-white/40 backdrop-blur-md border border-white/30 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="flex-1 space-y-6">
+                    <h2 class="text-3xl md:text-5xl font-bold leading-tight">
+                        <span class="text-black dark:text-white">Was gehört zu einem</span><br />
+                        <span class="text-primary">regelmäßigen Thermenservice?</span>
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+                        Das wiederkehrende, jährliche Thermenservice ist eine grundlegende Voraussetzung dafür,
+                        Gefährdungen
+                        wie etwa den ungewollten Abgasaustritt zu unterbinden und zeitgleich Laufzeit sowie
+                        Wärmeleistung
+                        Ihres Aggregats zu pushen. Dieses Service-Paket enthält typischerweise diese Schritte:
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Regelmäßiger Thermenservice
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Überprüfung und Reinigung Ihrer Gastherme
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Professionelle Reinigung des Wärmetauschers
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Individuelle Einstellung der Gaszufuhr
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Regelmäßige Überprüfung des Ausdehnungsgefäßes
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Optimierung aller Einstellungen
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Entlüftung der Heizkörper
+                        </li>
+                        <li class="flex items-center gap-3 text-lg text-black dark:text-white font-medium">
+                            <span class="material-symbols-outlined text-red-600">check_circle</span>
+                            Kontrolle des Kohlenmonoxidausstoßes
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1 w-full flex justify-center">
+                    <div
+                        class="glass-card p-6 rounded-3xl max-w-sm rotate-2 hover:rotate-0 transition-transform bg-primary/10">
+                        <img alt="Thermenservice Checklist" class="rounded-2xl"
+                            src="assets/thermenservice_checklist.png" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- New detailed blocks -->
+            <div class="mt-20 space-y-16">
+                <!-- Block 1 -->
+                <div class="flex flex-col md:flex-row-reverse gap-12 items-center">
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-3xl md:text-5xl font-bold leading-tight">
+                            <span class="text-black dark:text-white">Rundum-Service für Therme</span><br />
+                            <span class="text-primary">und Heizung in Linz</span>
+                        </h3>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Als Ihr erfahrener Partner im Bereich Thermenwartung Linz und ganzheitliches Heizungsservice
+                            decken wir alle anfallenden Schritte komplett inhouse ab. Begonnen bei der strengen,
+                            zyklischen Kontrolle
+                            durch unsere Mitarbeiter bis hin zur unaufschiebbaren Reparatur oder dem Tausch des
+                            Heizblocks – wir
+                            nehmen uns kompetent Ihrer Heizanlage an. Unsere routinierte Mannschaft rückt sowohl für ein
+                            reguläres Service
+                            als auch im echten Ernstfall zielgerichtet aus.
+                        </p>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Das Expertenwissen unserer Mannschaft spannt sich über verschiedenste Systemlandschaften –
+                            folglich nicht nur
+                            über herkömmliche Gasthermen und die verwandte Kombitherme. Wir konzipieren auch ausgedehnte
+                            Heizanlagen
+                            für Privatwohnungen, ganze Häuserverbände und den gewerblichen Bereich, einschließlich
+                            hochmoderner Brennwertthermen, Heizkessel-Modifikationen sowie ressourcensparenden
+                            Wasserspeichern.
+                        </p>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            In gleicher Manier sorgen wir uns um die fehlerfreie Überprüfung und Instandhaltung von
+                            Warmwasserboilern,
+                            Strom- oder gasgebundenen Durchlauferhitzern und Gaskesseln jeglicher Bauart. Im Zentrum
+                            unseres Angebots
+                            stehen neben den traditionellen Öl- und Gasverbrennungsanlagen ebenso fortschrittliche
+                            Fabrikate wie die
+                            innovativen Luftwärmepumpen.
+                        </p>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Im Zuge unseres umfangreichen Heizungsservices in Linz versprechen wir den absolut
+                            effizienten,
+                            gesicherten und langfristigen Betrieb Ihrer Anlage. Dauerhafte Thermenwartungen wehren
+                            Ausfälle souverän ab,
+                            drosseln Ihren Brennstoffkonsum stark und verheizen Ihnen gleichzeitig eine beruhigende
+                            Betriebssicherheit –
+                            für ein permanent wohlwollend klimatisiertes Heim.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/3 flex justify-center">
+                        <div
+                            class="glass-card p-6 rounded-3xl max-w-sm rotate-2 hover:rotate-0 transition-transform bg-primary/10 w-full">
+                            <img alt="Rundum Service" class="rounded-2xl shadow-lg w-full object-cover aspect-square"
+                                src="assets/rundum_service_therme.png" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Block 2 -->
+                <div class="flex flex-col md:flex-row gap-12 items-center">
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-3xl md:text-5xl font-bold leading-tight">
+                            <span class="text-black dark:text-white">Thermentausch in Linz –</span><br />
+                            <span class="text-primary">moderne Technik</span>
+                        </h3>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Sollte Ihre derzeitige Anlage oft Defekte zeigen oder nicht mehr die gewünschte
+                            Heiz-Performance erbringen,
+                            stellt der sachverständige Thermentausch Linz die goldrichtige Alternative dar. Ältere
+                            Gasthermen verbrennen im Tagesgeschäft oft viel zu viel Energie und kurbeln somit die
+                            Heiztarife
+                            beträchtlich nach oben. Wir zeigen Ihnen die Welt zeitgemäßer Brennwertthermen, konzipieren
+                            das auf Sie
+                            zugeschnittene Heizsystem und wickeln den Thermentausch von A bis Z für Sie ab – Demontage
+                            und fehlerfreier
+                            Montage inklusive.
+                        </p>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Der planmäßig durchgeführte Gerätewechsel rentiert sich für Sie: Die Effizienz nimmt kräftig
+                            zu, der Wohnraum
+                            wird deutlich aufgewertet und Ihre Betriebssicherheit schnellt in die Höhe.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/3 flex justify-center">
+                        <div
+                            class="glass-card p-6 rounded-3xl max-w-sm -rotate-2 hover:rotate-0 transition-transform bg-primary/10 w-full">
+                            <img alt="Thermentausch" class="rounded-2xl shadow-lg w-full object-cover aspect-square"
+                                src="assets/thermentausch_moderne_technik.png" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Block 3 -->
+                <div class="flex flex-col md:flex-row-reverse gap-12 items-center">
+                    <div class="flex-1 space-y-4">
+                        <h3 class="text-3xl md:text-5xl font-bold leading-tight">
+                            <span class="text-black dark:text-white">Thermenreparatur Linz –</span><br />
+                            <span class="text-primary">schnelle Hilfe bei Störungen</span>
+                        </h3>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Blinkt am Display ein Error, ist ein Druckverlust spürbar oder kühlen Ihre Räume zunehmend
+                            aus? Das Not-Team
+                            für Thermenreparatur Linz gräbt sich rasch bis zum Kern des Ausfalls vor und bereinigt den
+                            Schaden. Gilt Ihre Störung der Zündtechnik, defekten Dichtungen oder stehen Sie vor dem
+                            abrupten
+                            Heizungsausfall – wir bürgen für eine sachdienliche Instandsetzung Ihrer regulären Gastherme
+                            bzw. Kombitherme.
+                        </p>
+                        <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                            Ausgestattet mit dem Insiderwissen rund um diverseste Bautypen und Serienmodelle wickeln wir
+                            den Prozess zu
+                            Hundert Prozent auf Augenhöhe ab. Auf diese Art ist Ihre Thermenreparatur nicht nur günstig,
+                            sondern
+                            beschert Ihnen in Linz binnen kürzester Zeit die gewünschte Heizenergie zurück.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/3 flex justify-center">
+                        <div
+                            class="glass-card p-6 rounded-3xl max-w-sm rotate-2 hover:rotate-0 transition-transform bg-primary/10 w-full">
+                            <img alt="Thermenreparatur" class="rounded-2xl shadow-lg w-full object-cover aspect-square"
+                                src="assets/thermenreparatur_schnelle_hilfe.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inline-block bg-primary/10 border border-primary/20 rounded-2xl p-6 mt-8">
+                <h4 class="text-2xl font-bold text-primary mb-2">24H NOTDIENST FÜR THERMEN UND HEIZSYSTEME</h4>
+                <p class="text-gray-700 dark:text-gray-300 mb-6"><mark>Unser Team ist 24 Stunden täglich für Sie
+                        erreichbar – telefonisch unter 0664 9334 2464 sowie per E-Mail. Wir nehmen uns Zeit für Ihr
+                        Anliegen, beraten Sie persönlich und bieten Ihnen eine Lösung, die genau auf Ihre Situation
+                        abgestimmt ist. Kontaktieren Sie uns jederzeit – wir sind gerne für Sie da.</mark></p>
+                <a class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-xl font-bold shadow-md transition-all hover:bg-red-900"
+                    href="tel:066493342464">
+                    <span class="material-symbols-outlined text-sm">call</span>
+                    0664 9334 2464
+                </a>
+            </div>
+
+        </section>
+
+        <!-- FAQs -->
+        <section class="max-w-7xl mx-auto w-full mt-24 px-4 sm:px-6 lg:px-8 relative z-10 mb-24">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-bold uppercase">
+                    <span class="text-black dark:text-white">Häufig gestellte</span> <span
+                        class="text-primary">Fragen</span>
+                </h2>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full px-8 py-6 flex items-center justify-between text-left group">
+                        <span
+                            class="text-xl font-bold text-black dark:text-white group-hover:text-primary transition-colors flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">help</span>
+                            Was kostet eine Thermenwartung?
+                        </span>
+                        <span
+                            class="material-symbols-outlined text-primary transform transition-transform duration-300">expand_more</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-8 pb-6">
+                            <p class="text-gray-700 dark:text-gray-300 leading-relaxed pt-2 border-t border-primary/10">
+                                Die Thermenwartung Kosten sind unterschiedlich hoch und richten sich nach dem
+                                Gerätemodell,
+                                dem Baujahr der Gastherme und eventuell benötigten Zubehör- oder Ersatzteilen. Wir
+                                punkten stets mit nachvollziehbaren sowie fairen Preissystemen. Für eine preiswerte,
+                                fachgerechte Thermenwartung oder einen maßgeschneiderten Kostenvoranschlag rufen Sie uns
+                                einfach
+                                jederzeit an.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full px-8 py-6 flex items-center justify-between text-left group">
+                        <span
+                            class="text-xl font-bold text-black dark:text-white group-hover:text-primary transition-colors flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">help</span>
+                            Wer trägt die Kosten für Therme und Wartung in Wien (bzw. Linz)?
+                        </span>
+                        <span
+                            class="material-symbols-outlined text-primary transform transition-transform duration-300">expand_more</span>
+                    </button>
+                    <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <div class="px-8 pb-6">
+                            <p class="text-gray-700 dark:text-gray-300 leading-relaxed pt-2 border-t border-primary/10">
+                                Die rechtliche Lage in Österreich (inkl. ABGB sowie MRG) sieht grundsätzlich vor, dass
+                                Mieter:innen
+                                die Kosten für die wiederkehrende, fristgerechte Wartung der Gastherme zu tragen haben
+                                (Wartungspflicht). Der oder die Vermieter:in hat im Gegenzug die finanzielle Last bei
+                                plötzlich
+                                unumgänglichen Reparaturen oder einem notwendigen kompletten Thermentausch bei
+                                Totalausfall zu
+                                schultern (Erhaltungspflicht). Beachten Sie dringend, dass die Erhaltungspflicht des
+                                Vermieters in der
+                                Regel nur dann besteht, wenn die empfohlenen Wartungsintervalle restlos und belegbar
+                                eingehalten wurden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                document.querySelectorAll('.faq-toggle').forEach(button => {
+                    button.addEventListener('click', () => {
+                        const content = button.nextElementSibling;
+                        const icon = button.querySelector('span:last-child');
+
+                        document.querySelectorAll('.faq-content').forEach(otherContent => {
+                            if (otherContent !== content) {
+                                otherContent.style.maxHeight = null;
+                                otherContent.previousElementSibling.querySelector('span:last-child').style.transform = 'rotate(0deg)';
+                            }
+                        });
+
+                        if (content.style.maxHeight) {
+                            content.style.maxHeight = null;
+                            icon.style.transform = 'rotate(0deg)';
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + "px";
+                            icon.style.transform = 'rotate(180deg)';
+                        }
+                    });
+                });
+            </script>
+        </section>
+
+        <section class="max-w-7xl mx-auto w-full mt-24 px-4 sm:px-6 lg:px-8 relative z-10">
+            <div
+                class="glass-card bg-white/40 backdrop-blur-md border border-white/30 rounded-3xl p-8 md:p-12 shadow-xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-5xl font-bold text-primary mb-6 uppercase tracking-tight">UNSERE
+                        EINSATZGEBIETE</h2>
+                </div>
+                <div class="space-y-12">
+                    <!-- Linz Districts -->
+                    <div>
+                        <h3
+                            class="text-xl md:text-2xl font-bold text-black dark:text-white mb-2 border-l-4 border-primary pl-4">
+                            Bezirke in Land Linz: Wir sind in allen Bezirken und Gemeinden in Linz im Einsatz</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6 max-w-4xl">
+                            Egal, ob Sie mitten im Zentrum wohnen oder in den Außenbezirken angesiedelt sind – unser
+                            Thermen Notdienst-Team ist für sämtliche Stadtteile extrem schnell greifbar.
+                        </p>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>INNERE
+                                STADT
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                LEONHARD
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>GEIDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>LEND
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>GRIES
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>JAKOMINI
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>LIEBENAU
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                PETER
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>WALTENDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>RIES
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>MARIATROST
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>ANDRITZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>GÖSTING
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>EGGENBERG
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>WETZELSDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>STRAẞGANG
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>PUNTIGAM
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Municipalities -->
+                    <div>
+                        <h3
+                            class="text-xl md:text-2xl font-bold text-black dark:text-white mb-2 border-l-4 border-primary pl-4">
+                            Einige Gemeinden in Linz-Umgebung: Wir sind in ganz Linz tätig</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-8 max-w-4xl">Unsere passionierten Installateure
+                            bürgen für minimale Anfahrtszeiten und überbringen Ihnen clevere wie langlebige Lösungen für
+                            jede
+                            Heizungs- und Sanitäranlage im kompletten Gebiet Linz-Umgebung.</p>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>DEUTSCHFEISTRITZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>DOBL-ZWARING
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>EGGERSDORF
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>FELDKIRCHEN
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>FERNITZ-MELLACH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>FROHNLEITEN
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>GÖSSENDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>GRATKORN
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>GRATWEIN-STRAßENGEL
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>HART
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>HASELSDORF-TOBELBAD
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>HAUSMANNSTÄTTEN
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>HITZENDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>KAINBACH
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>KALSDORF
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>KUMBERG
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>LAßNITZHÖHE
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>LIEBOCH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>NESTELBACH
+                                BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>PEGGAU
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>PREMSTÄTTEN
+                                (UNTERPREMSTÄTTEN-ZETTLING)
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>RAABA-GRAMBACH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                BARTHOLOMÄ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                MAREIN BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                OSWALD BEI
+                                PLANKENWARTH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>SANKT
+                                RADEGUND BEI LINZ
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>SEIERSBERG-PIRKA
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>SEMRIACH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>STATTEGG
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>STIWOLL
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span class="material-symbols-outlined text-red-600 text-base">check_circle</span>THAL
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>ÜBELBACH
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>VASOLDSBERG
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>WEINITZEN
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>WERNDORF
+                            </div>
+                            <div class="text-sm font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                                <span
+                                    class="material-symbols-outlined text-red-600 text-base">check_circle</span>WUNDSCHUH
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Removed Contact form & Notruf section from here to move it up -->
+    </main>
+
+    <footer class="relative z-10 px-6 pb-12">
+        <div
+            class="max-w-7xl mx-auto glass-panel bg-glass-light/70 dark:bg-glass-dark/70 rounded-2xl p-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 flex-1 w-full sm:w-auto">
+                <a href="/" class="flex items-center justify-center gap-2">
+                    <span class="material-symbols-outlined text-primary text-2xl">plumbing</span>
+                    <span
+                        class="text-lg font-bold text-black dark:text-white tracking-tight text-center sm:text-left">Installateur
+                        Notdienst
+                        Linz</span>
+                </a>
+                <nav
+                    class="flex flex-wrap justify-center sm:justify-start items-center gap-4 sm:gap-6 text-sm font-medium text-gray-700 dark:text-gray-300 sm:ml-4">
+                    <a class="hover:text-primary transition-colors" href="sitemap.html">Sitemap</a>
+                    <a class="hover:text-primary transition-colors" href="impressum.html">Impressum</a>
+                    <a class="hover:text-primary transition-colors" href="kontakt.html">Kontakt</a>
+                    <a class="hover:text-primary transition-colors"
+                        href="datenschutzerklaerung.html">Datenschutzerklärung</a>
+                </nav>
+            </div>
+            <a class="flex items-center gap-3 px-6 py-3 bg-primary text-white rounded-xl font-bold shadow-lg transition-all whitespace-nowrap hover:bg-red-900"
+                href="tel:066493342464">
+                <span class="material-symbols-outlined">call</span>0664 9334 2464
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButtonTheme = document.getElementById('theme-toggle');
+        const themeHtmlElement = document.documentElement;
+        toggleButtonTheme.addEventListener('click', () => {
+            if (themeHtmlElement.classList.contains('dark')) {
+                themeHtmlElement.classList.remove('dark');
+            } else {
+                themeHtmlElement.classList.add('dark');
+            }
+        });
+    </script>
+</body>
+
+</html>

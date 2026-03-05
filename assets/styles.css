@@ -1,0 +1,93 @@
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+.glass-panel {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.dark .glass-card {
+    background: rgba(30, 40, 30, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: 0;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.shape-1 {
+    background: rgba(199, 52, 24, 0.4);
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: -50px;
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    background: rgba(255, 255, 255, 0.6);
+    width: 200px;
+    height: 200px;
+    bottom: 10%;
+    right: 20%;
+    animation-delay: 1s;
+}
+
+.shape-3 {
+    background: rgba(199, 52, 24, 0.3);
+    width: 150px;
+    height: 150px;
+    top: 20%;
+    right: 10%;
+    animation-delay: 2s;
+}
+
+.shape-4 {
+    background: rgba(239, 238, 223, 0.8);
+    width: 400px;
+    height: 400px;
+    bottom: -100px;
+    left: 20%;
+    animation-delay: 3s;
+}
+
+.glow-spot {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(199, 52, 24, 0.3) 0%, rgba(199, 52, 24, 0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+}
