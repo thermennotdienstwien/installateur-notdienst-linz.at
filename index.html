@@ -11,13 +11,41 @@
     <!-- Favicon -->
     <link rel="icon" href="assets/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="assets/installateur-notdienst-team.png" />
-    <link rel="stylesheet" href="assets/tailwind-built.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap"
         rel="stylesheet" />
     <link
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
-    
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#c73418",
+                        "background-light": "#efeedf",
+                        "background-dark": "#1a2e1a",
+                        "glass-light": "rgba(255, 255, 255, 0.4)",
+                        "glass-dark": "rgba(30, 40, 30, 0.4)",
+                        black: "#000000",
+                    },
+                    fontFamily: {
+                        display: ["Google Sans", "sans-serif"],
+                        body: ["Google Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        'xl': "1.5rem",
+                        '2xl': "2rem",
+                    },
+                    backdropBlur: {
+                        'xs': '2px',
+                    }
+                },
+            },
+        };
+    </script>
     <link rel="stylesheet" href="assets/styles.css" />
 </head>
 
