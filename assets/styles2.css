@@ -149,3 +149,14 @@ body {
 .bg-primary\/20 {
   background: rgba(199,52,24,.2);
 }
+
+
+.bg-green-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+.border-green-300 {
+    --tw-border-opacity: 1;
+    border-color: rgb(134 239 172 / var(--tw-border-opacity, 1));
+}
