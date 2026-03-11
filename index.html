@@ -579,8 +579,21 @@
             </div>
             <div class="flex-1">
                 <div class="glass-card p-4 rounded-3xl rotate-2 hover:rotate-0 transition-transform duration-500">
-                    <img alt="Gas Notdienst Service" class="rounded-2xl w-full h-[400px] object-cover shadow-lg"
-                        src="assets/gas_notdienst_service_new.png" />
+                    <picture>
+                        <source
+                            type="image/webp"
+                            srcset="assets/gas_notdienst_service_new.webp"
+                        />
+                        <img
+                            src="assets/gas_notdienst_service_new.png"
+                            alt="Gas Notdienst Service"
+                            class="rounded-2xl w-full h-[400px] object-cover shadow-lg"
+                            width="400"
+                            height="400"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </picture>
                 </div>
             </div>
         </div>
