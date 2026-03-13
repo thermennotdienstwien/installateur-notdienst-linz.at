@@ -18,6 +18,6 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
-
+ 
 
 Sitemap: https://installateur-notdienst-linz.at/sitemap
